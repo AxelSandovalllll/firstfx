@@ -30,6 +30,7 @@ public class App extends Application {
 
         // instantiate an IndividualPane object and add it to the root node
         root.getChildren().add(new IndividualPane(individual));
+
         scene = new Scene(root, 640, 480);
         stage.setScene(scene);
         stage.show();
